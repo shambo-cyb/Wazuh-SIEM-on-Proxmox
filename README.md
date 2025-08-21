@@ -16,7 +16,7 @@ It is a Proxmox Worstation which has Ubuntu as the base VM for Wazzuh. Wazzuh se
 ## Process 
 All the virtual machines are on the same network. They are in the subnet range of 10.0.0.255/24. 
 
-### The environment in the project can be described by the following image 
+#### The environment in the project can be described by the following image 
 <img width="408" height="469" alt="Picture24" src="https://github.com/user-attachments/assets/6f023ec8-0845-43fa-ba8e-7be8650e0ab3" />
 
 ## Starting point 
