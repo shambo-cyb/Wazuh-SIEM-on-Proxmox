@@ -18,7 +18,7 @@ It is a Proxmox Worstation which has Ubuntu as the base VM for Wazzuh. Wazzuh se
 All the virtual machines are on the same network. They are in the subnet range of 10.0.0.0/24. 
 
 #### The environment in the project can be described by the following image 
-<img width="600" height="469" alt="Picture24" src="https://github.com/user-attachments/assets/6f023ec8-0845-43fa-ba8e-7be8650e0ab3" />
+<img width="200" height="469" alt="Picture24" src="https://github.com/user-attachments/assets/6f023ec8-0845-43fa-ba8e-7be8650e0ab3" />
 
 ## Starting point 
 As with all the CTF like environment the first and foremost thing I have done is scanning an active subnet of 10.0.0.0. And after the NMap scanning the open ports on Window 10 (victim) machine was discovered as shown in the picture. 
