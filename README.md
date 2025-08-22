@@ -1,4 +1,5 @@
-# Wazuh-SIEM-on-Proxmox
+# Cybersecurity lab simulating Windows attacks and monitoring with Wazuh SIEM in a Proxmox virtual environment.
+## Wazuh-SIEM-on-Proxmox
 Built a SIEM environment by deploying Wazuh inside Proxmox on a base Ubuntu Server.     Designed to collect, analyze, and visualize security events in a virtualized lab
 
 ## Brief about the Project 
