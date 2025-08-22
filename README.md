@@ -14,13 +14,13 @@ It is a Proxmox Worstation which has Ubuntu as the base VM for Wazzuh. Wazzuh se
 - Kali as the attacker machine
 
 ## Process 
-All the virtual machines are on the same network. They are in the subnet range of 10.0.0.255/24. 
+All the virtual machines are on the same network. They are in the subnet range of 10.0.0.0/24. 
 
 #### The environment in the project can be described by the following image 
 <img width="408" height="469" alt="Picture24" src="https://github.com/user-attachments/assets/6f023ec8-0845-43fa-ba8e-7be8650e0ab3" />
 
 ## Starting point 
-As with all the CTF like environment the first and foremost thing I have done is scanning an active subnet of 10.0.0.255. And after the NMap scanning the open ports on Window 10 (victim) machine was discovered as shown in the picture. 
+As with all the CTF like environment the first and foremost thing I have done is scanning an active subnet of 10.0.0.0. And after the NMap scanning the open ports on Window 10 (victim) machine was discovered as shown in the picture. 
 
 <img width="575" height="97" alt="Pictur7" src="https://github.com/user-attachments/assets/f7a1c411-cbd3-4024-8971-a4d74921ff73" />
 
@@ -82,7 +82,7 @@ As the exploit was sucessful Wazzuh server was producing alerts. . We see the ty
 This page helps security teams understand the technical side of attacks, which is essential for building effective defenses.
 
 ## Setting up the Environment 
-Proxmox is installed on my workstation in the same home network subnet of 10.0.0.255 /24. I have used Ubuntu for the base virtual machine for Wazuh. Wazuh is downloaded using Curl. 
+Proxmox is installed on my workstation in the same home network subnet of 10.0.0.0 /24. I have used Ubuntu for the base virtual machine for Wazuh. Wazuh is downloaded using Curl. 
 ## Setup Procedure 
 ### Update system packages
 - ```bash
