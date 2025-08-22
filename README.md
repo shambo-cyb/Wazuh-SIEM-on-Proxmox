@@ -38,11 +38,11 @@ The sucessful shell access can be shown by the picture.
 ## Wazzuh alerts 
 As the exploit was sucessful Wazzuh server was producing alerts. . We see the type of alert generated indicating that the there was a successful logon to the Windows Machine via remote desktop, the time stamp of when the attack was done, the Ip address of the Victim which is 10.0.0.133 and the Ip address of the attacker as 10.0.0.130. In this scenario having a Wazuh server that is initiating the alerts is very useful to determine if there is any sort of attacks that’s done to a machine, also since it’s a host-based intrusion detection system it is essential to have the agent installed on the machine that is being monitored. We can see all sorts of alerts ranging from a simple event as when the user logged into the system, any apps or services that are running that is needing escalated privileges or any form of an actual attack like the one above where there is clear establishment of a remote desktop on a victim’s computer. 
 
-<img width="600" height="797" alt="Picture2" src="https://github.com/user-attachments/assets/fcd571bd-6861-439c-8067-14bd1d879e6c" />
+<img width="500" height="395" alt="Picture2" src="https://github.com/user-attachments/assets/fcd571bd-6861-439c-8067-14bd1d879e6c" /> <img width="460" height="395" alt="Picture78787" src="https://github.com/user-attachments/assets/6974a705-3deb-46fa-b02d-5393d26358ff" />
 
 
 
-<img width="600" height="395" alt="Picture78787" src="https://github.com/user-attachments/assets/6974a705-3deb-46fa-b02d-5393d26358ff" />
+
 
 ## Functionality 
 #### Wazuh is typically very useful in generating different types of alerts for different types of exploits. It also provides a CIS health benchmarks of a pc that is currently being monitored and protected. The dashnoard view can be represented in the following. 
