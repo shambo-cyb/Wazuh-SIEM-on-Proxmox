@@ -44,8 +44,42 @@ As the exploit was sucessful Wazzuh server was producing alerts. . We see the ty
 <img width="579" height="395" alt="Picture78787" src="https://github.com/user-attachments/assets/6974a705-3deb-46fa-b02d-5393d26358ff" />
 
 ## Functionality 
-Wazuh is typically very useful in generating different types of alerts for different types of exploits. It also provides a CIS health benchmarks of a pc that is currently being monitored and protected. The dashnoard view can be represented in the following. 
+#### Wazuh is typically very useful in generating different types of alerts for different types of exploits. It also provides a CIS health benchmarks of a pc that is currently being monitored and protected. The dashnoard view can be represented in the following. 
 
 
 <img width="1246" height="851" alt="Picture78778778787" src="https://github.com/user-attachments/assets/53f0eec3-5842-447f-988d-6c74e4c613af" />
 
+## Attacks Types and Definitions of some common attack groups by Wazuh
+
+### Understanding Cybersecurity Threats Through Wazuh
+<img width="1166" height="681" alt="Picture1" src="https://github.com/user-attachments/assets/57030362-ec81-4b81-9999-f7e5b88c15cf" />
+
+#### Wazuh offers a powerful look into the world of cyber threats, combining technical details with intelligence on the groups behind the attacks.
+
+- The first image highlights a specific MITRE ATT&CK technique, T1003.008, which explains how attackers can steal password hashes from Linux systems. The description mentions the /etc/passwd and /etc/shadow files, which are key targets for this type of attack.
+- The second image focuses on different adversary groups, such as Kimsuky and GALLIUM. The platform provides valuable details on these groups, including their country of origin and typical targets, helping users understand who might be trying to attack them.
+- Together, these screenshots show how Wazuh provides a comprehensive view of cybersecurity threats by linking specific techniques to the real-world groups that use them, creating a clearer picture for security teams.
+
+### Understanding OS Credential Dumping with Wazuh
+
+
+<img width="1177" height="666" alt="Picture3" src="https://github.com/user-attachments/assets/59fbfddd-d26c-4099-90a7-d059433ded30" />
+
+#### Wazuh is a security platform that provides clear, actionable intelligence on how attackers operate, helping you understand and respond to threats effectively.
+- The image displays the Wazuh dashboard, specifically highlighting the MITRE ATT&CK section.
+- It details the "OS Credential Dumping" technique, which involves attackers targeting Linux's /etc/passwd and /etc/shadow files to steal password hashes.
+- The platform provides actionable intelligence, explaining how these hashes can be used with tools like John the Ripper to crack passwords.
+
+### The Attacker's Toolbelt: A Look at Malicious Software
+
+<img width="1069" height="727" alt="Picture2" src="https://github.com/user-attachments/assets/98412834-ceb0-4b6a-9a05-2263f8a55afa" />
+
+#### This screenshot showcases some of the specific tools and software that cyber attackers use in their operations. It’s a valuable part of any threat intelligence platform because it moves beyond just talking about groups and tactics and gets into the nitty-gritty of the actual code and programs used. Some of the tools listed are:
+- PoshC2: An open-source framework used for remote administration and post-exploitation.
+- Pass-The-Hash Toolkit: A tool for using stolen password hashes to log into systems without knowing the actual password.
+- Mimikatz: A very famous credential dumper for Windows systems that can reveal plaintext passwords from memory.
+- HOPLIGHT: A specific backdoor Trojan reportedly used by a North Korean group.
+This page helps security teams understand the technical side of attacks, which is essential for building effective defenses.
+
+## Setting up the Environment 
+Proxmox is installed on my workstation in the same home network subnet of 10.0.0.255 /24. I have used Ubuntu for the base virtual machine for Wazuh. Wazuh is downloaded using Curl. 
