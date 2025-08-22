@@ -97,14 +97,16 @@ Proxmox is installed on my workstation in the same home network subnet of 10.0.0
 ### Update system packages
 - ```bash
    sudo apt-get update -y
+- ```bash
    sudo apt-get upgrade -y 
 ### Install curl, apt-transport-https, and lsb-release if missing
 - ```bash
   sudo apt-get install curl apt-transport-https lsb-release gnupg2 -y
 ### Download and run the Wazuh installation script
 - ```bash  
-  curl -sO https://packages.wazuh.com/4.9/wazuh-install.sh
-  sudo bash ./wazuh-install.sh -a
+  curl -sO https://packages.wazuh.com/4.8/wazuh-install.sh
+- ```bash  
+  sudo bash wazuh-install.sh --all-in-one --overwrite
 ## Installing the Agent on Windows 10 
 A Wazuh agent matching the exact release version is added to the Windows 10 victim machine and configured with the Wazuh Server Ip for management. 
 ## Adding the Agent to the Server 
@@ -136,3 +138,15 @@ On the Wazuh server, confirm the agent is active:
 - ```bash
   sudo /var/ossec/bin/agent_control -ls
 If successful, the Windows 10 agent will appear in the list with its ID, name, and status.
+
+### Starting the Wazuh Agent on Windows 10 
+- ```bash
+  net start WazuhSvc
+### Restaring the Wazuh Manager 
+- ```bash
+  sudo systemctl start wazuh-manager
+
+If this is successful then open the Web browser and login to 
+- https://<wazuh server's ip>:5601
+and the dashboard is visible stating the number of agents which are connected and active. 
+
