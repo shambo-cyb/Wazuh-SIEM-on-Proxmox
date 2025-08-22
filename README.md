@@ -83,3 +83,46 @@ This page helps security teams understand the technical side of attacks, which i
 
 ## Setting up the Environment 
 Proxmox is installed on my workstation in the same home network subnet of 10.0.0.255 /24. I have used Ubuntu for the base virtual machine for Wazuh. Wazuh is downloaded using Curl. 
+## Setup Procedure 
+### Update system packages
+- ```bash
+   sudo apt-get update -y
+   sudo apt-get upgrade -y 
+### Install curl, apt-transport-https, and lsb-release if missing
+- ```bash
+  sudo apt-get install curl apt-transport-https lsb-release gnupg2 -y
+### Download and run the Wazuh installation script
+- ```bash  
+  curl -sO https://packages.wazuh.com/4.9/wazuh-install.sh
+  sudo bash ./wazuh-install.sh -a
+## Installing the Agent on Windows 10 
+A Wazuh agent matching the exact release version is added to the Windows 10 victim machine and configured with the Wazuh Server Ip for management. 
+## Adding the Agent to the Server 
+Once the Wazuh agent is installed on an endpoint (Ubuntu/Windows), it needs to be registered with the Wazuh server using an enrollment key.
+### On the Wazuh Server (Manager)
+Run the following command:
+- ```bash
+  sudo /var/ossec/bin/manage_agents
+Inside the menu:
+Press A → Add an agent
+Enter:
+- Agent name (e.g., ubuntu-agent)
+- Agent IP
+- The system will generate an Agent key (long alphanumeric string).
+- Copy the key.
+
+Exit the menu by pressing Q.
+
+### On the Wazuh Agent (Windows 10)
+Open the Wazuh Agent Manager application from the Start Menu.
+- In the Server field, enter the IP address of the Wazuh server .
+- Click Manage keys → Import key.
+- Paste the Agent key copied from the Wazuh server.
+- Save the configuration.
+- Start the agent by clicking Start in the Wazuh Agent Manager window.
+
+### Verify the Agent Connection
+On the Wazuh server, confirm the agent is active:
+- ```bash
+  sudo /var/ossec/bin/agent_control -ls
+If successful, the Windows 10 agent will appear in the list with its ID, name, and status.
