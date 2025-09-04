@@ -61,6 +61,9 @@ When there is a clear sign of an attack, like:
 Remote Desktop access being established on the victim’s computer
 
 <img width="600" height="395" alt="Picture2" src="https://github.com/user-attachments/assets/fcd571bd-6861-439c-8067-14bd1d879e6c" /> 
+
+<br><br>
+
 <img width="600" height="395" alt="Picture78787" src="https://github.com/user-attachments/assets/6974a705-3deb-46fa-b02d-5393d26358ff" />
 
 
