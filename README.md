@@ -5,6 +5,22 @@ Built a SIEM environment by deploying Wazuh inside Proxmox on a base Ubuntu Serv
 ## Brief about the Project 
 It is a Proxmox Worstation which has Ubuntu as the base VM for Wazzuh. Wazzuh server is configure to receive alert updates. Windows 10 is the victim machine that has Wazzuh agent installed and Kali is the attacker. When Kali is exploting the SMB open port on Windows10 , alerts are automatically generated on Wazzuh. 
 
+---
+
+## Table of Contents
+
+1. [Main Requirements](#main-requirements)  
+2. [Proxmox Workstation](#proxmox-workstation)  
+3. [Ubuntu Base OS](#ubuntu-base-os)  
+4. [Wazuh Installation](#wazuh-installation)  
+5. [Attack Simulation](#attack-simulation)  
+6. [Alerts](#alerts)  
+7. [Screenshots](#screenshots)  
+8. [Conclusion](#conclusion)  
+9. [References](#references)
+
+---
+
 ## Main Requirements 
 ### Proxmox Workstation
 - Proxmox as the bare bone hypervisor on a Workstation
