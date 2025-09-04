@@ -40,18 +40,15 @@ In this scenario, a successful exploit was carried out on a Windows machine. The
 
 ✅ As the exploit was successful, the Wazuh server started producing alerts.
 🔔 We can see the type of alert generated, which indicates:
-
 A successful logon to the Windows machine via Remote Desktop (RDP).
-
 🕒 The alert also includes:
 The timestamp of when the attack occurred.
 
 🌐 IP address details:
-Victim machine IP: 10.0.0.133
-Attacker machine IP: 10.0.0.130
+- Victim machine IP: 10.0.0.133
+- Attacker machine IP: 10.0.0.130
 
 📌 In this scenario, having a Wazuh server generating alerts is very useful to:
-
 Detect if any kind of attack is happening on the machine.
 
 🖥️ Since Wazuh is a host-based intrusion detection system (HIDS):
