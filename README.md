@@ -72,7 +72,7 @@ As the exploit was sucessful Wazzuh server was producing alerts. . We see the ty
 - It details the "OS Credential Dumping" technique, which involves attackers targeting Linux's /etc/passwd and /etc/shadow files to steal password hashes.
 - The platform provides actionable intelligence, explaining how these hashes can be used with tools like John the Ripper to crack passwords.
 
-### The Attacker's Toolbelt: A Look at Malicious Software and MITTRE Att&cks
+### The Attacker's Toolbelt: A Look at Malicious Software and MITRE Att&cks
 
 <img width="600" height="727" alt="Picture2" src="https://github.com/user-attachments/assets/98412834-ceb0-4b6a-9a05-2263f8a55afa" />
 
