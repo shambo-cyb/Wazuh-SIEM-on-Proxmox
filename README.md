@@ -25,8 +25,14 @@ As with all the CTF like environment the first and foremost thing I have done is
 
 <img width="600" height="97" alt="Pictur7" src="https://github.com/user-attachments/assets/f7a1c411-cbd3-4024-8971-a4d74921ff73" />
 
-The ports which are in open state which are TCP/135, TCP/139 and TCP/445. I have exploited the TCP/445 and established a remote connection to the victim’s computer using windows Server Message Block. As soon as I am able to get into the victim’s computer since Wazuh was configured to monitor, it generated an alert coming in with the correct time stamp and the nature of the attack.  
+In this scenario, several ports on the victim machine were found to be open: TCP/135, TCP/139, and TCP/445.
 
+- ✅ I exploited TCP/445 by using Windows Server Message Block (SMB) to establish a remote connection to the victim’s computer.
+- 🖥️ Once I gained access to the victim’s machine, since Wazuh was configured to monitor it, the server immediately generated an alert.
+- 🔔 The alert included:
+- 🕒 The correct timestamp of the attack
+- 🚨 The nature of the attack, indicating the remote connection via SMB
+- 📌 This shows how important it is to have Wazuh monitoring critical ports and services, as it helps detect unauthorized access in real-time.
 ## Cracking the password 
 I have used John the Ripper built inside of Kali to extract the password and use a common list in this case Rockyou to crack the password 
 
