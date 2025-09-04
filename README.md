@@ -86,11 +86,15 @@ This page helps security teams understand the technical side of attacks, which i
 ### Understanding the Dashboard 
 <img width="600" height="814" alt="Picture4" src="https://github.com/user-attachments/assets/5605b86a-f257-4b8c-bad4-761d2547fe83" />
 
-This is a great look at the Wazuh dashboard, which gives a visual overview of security events. It helps a security analyst quickly see what's happening in the environment, from the types of attacks to the rules that are being triggered.
+The Wazuh dashboard is more than just a collection of charts—it's a real-time command center for cybersecurity teams, designed to turn chaos into clarity. It transforms raw data into actionable insights, helping analysts stay ahead of threats with speed and confidence.
+- 📈 Alerts Evolution Over Time: This timeline graph isn’t just a visual—it’s a pulse check on your network. A sudden spike between 6 PM and 9 PM? That’s your cue to dig deeper. It helps teams correlate activity with known events, patch deployments, or suspicious behavior.
+- 🧠 Top Tactics: The pie chart breaks down adversarial behavior into recognizable patterns like Defense Evasion, Initial Access, and Privilege Escalation. It’s like profiling the enemy’s playbook, so defenders can anticipate their next move.
+- 🔐 Rule Level by Attack: This chart categorizes threats by severity and sophistication. Whether it’s a low-level phishing attempt or a high-risk privilege escalation, analysts can prioritize response efforts based on impact.
+- 🚨 Threat Landscape Overview: Additional graphs show the most common attack vectors, targeted assets, and frequency of rule triggers. It’s a bird’s-eye view of what’s hitting your environment—and how often.
+- 🧭 Navigation & Filtering: The dashboard allows filtering by time, rule level, tactic, and source IP. This empowers analysts to zoom in on specific incidents or trends without drowning in noise.
+- 🛠️ Operational Efficiency: With intuitive visuals and drill-down capabilities, the dashboard reduces alert fatigue and accelerates triage. It’s not just about seeing the data—it’s about understanding it instantly.
+In short, this dashboard turns threat detection into a visual narrative. It’s not just a tool—it’s a teammate.
 
-- The dashboard shows a timeline of "Alerts evolution over time," so you can see when security events are spiking. This particular chart shows a significant increase in alerts between 6 PM and 9 PM.
-- There are multiple charts displaying "Top tactics" and "Rule level by attack," which break down the types of attacks being detected. This includes things like Defense Evasion, Initial Access, and Privilege Escalation.
-- It provides a comprehensive, at-a-glance view of the most common threats and tactics targeting the network, helping security teams prioritize their response efforts based on real-time data.
 
 ## Setting up the Environment 
 Proxmox is installed on my workstation in the same home network subnet of 10.0.0.0 /24. I have used Ubuntu for the base virtual machine for Wazuh. Wazuh is downloaded using Curl. 
