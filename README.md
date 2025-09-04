@@ -36,7 +36,32 @@ The sucessful shell access can be shown by the picture.
 <img width="600" height="103" alt="Picture6767" src="https://github.com/user-attachments/assets/57e5095f-d9b1-47c1-992a-d8c1c982705f" />
 
 ## Wazzuh alerts 
-As the exploit was sucessful Wazzuh server was producing alerts. . We see the type of alert generated indicating that the there was a successful logon to the Windows Machine via remote desktop, the time stamp of when the attack was done, the Ip address of the Victim which is 10.0.0.133 and the Ip address of the attacker as 10.0.0.130. In this scenario having a Wazuh server that is initiating the alerts is very useful to determine if there is any sort of attacks that’s done to a machine, also since it’s a host-based intrusion detection system it is essential to have the agent installed on the machine that is being monitored. We can see all sorts of alerts ranging from a simple event as when the user logged into the system, any apps or services that are running that is needing escalated privileges or any form of an actual attack like the one above where there is clear establishment of a remote desktop on a victim’s computer. 
+In this scenario, a successful exploit was carried out on a Windows machine. The Wazuh server detected the activity and generated alerts that help us understand the nature and details of the attack.
+
+✅ As the exploit was successful, the Wazuh server started producing alerts.
+🔔 We can see the type of alert generated, which indicates:
+
+A successful logon to the Windows machine via Remote Desktop (RDP).
+
+🕒 The alert also includes:
+The timestamp of when the attack occurred.
+
+🌐 IP address details:
+Victim machine IP: 10.0.0.133
+Attacker machine IP: 10.0.0.130
+
+📌 In this scenario, having a Wazuh server generating alerts is very useful to:
+
+Detect if any kind of attack is happening on the machine.
+
+🖥️ Since Wazuh is a host-based intrusion detection system (HIDS):
+It is essential to have the Wazuh agent installed on the machine being monitored.
+
+⚠️ Wazuh provides a variety of alerts, including:
+When a user logs into the system
+When apps or services request elevated privileges
+When there is a clear sign of an attack, like:
+Remote Desktop access being established on the victim’s computer
 
 <img width="600" height="395" alt="Picture2" src="https://github.com/user-attachments/assets/fcd571bd-6861-439c-8067-14bd1d879e6c" /> 
 <img width="600" height="395" alt="Picture78787" src="https://github.com/user-attachments/assets/6974a705-3deb-46fa-b02d-5393d26358ff" />
@@ -46,7 +71,7 @@ As the exploit was sucessful Wazzuh server was producing alerts. . We see the ty
 
 
 ## Functionality 
-#### Wazuh is typically very useful in generating different types of alerts for different types of exploits. It also provides a CIS health benchmarks of a pc that is currently being monitored and protected. The dashnoard view can be represented in the following. 
+#### Wazuh is typically very useful in generating different types of alerts for different types of exploits. It also provides a CIS health benchmarks of a pc that is currently being monitored and protected. The dashboard view can be represented in the following. 
 
 
 <img width="600" height="851" alt="Picture78778778787" src="https://github.com/user-attachments/assets/53f0eec3-5842-447f-988d-6c74e4c613af" />
