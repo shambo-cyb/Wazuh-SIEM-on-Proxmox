@@ -26,10 +26,10 @@ As with all the CTF like environment the first and foremost thing I have done is
 <img width="600" height="97" alt="Pictur7" src="https://github.com/user-attachments/assets/f7a1c411-cbd3-4024-8971-a4d74921ff73" />
 
 In this scenario, several ports on the victim machine were found to be open: TCP/135, TCP/139, and TCP/445.
-
 - ✅ I exploited TCP/445 by using Windows Server Message Block (SMB) to establish a remote connection to the victim’s computer.
 - 🖥️ Once I gained access to the victim’s machine, since Wazuh was configured to monitor it, the server immediately generated an alert.
-- 🔔 The alert included:
+
+ #### 🔔 The alert included:
 - 🕒 The correct timestamp of the attack
 - 🚨 The nature of the attack, indicating the remote connection via SMB
 - 📌 This shows how important it is to have Wazuh monitoring critical ports and services, as it helps detect unauthorized access in real-time.
