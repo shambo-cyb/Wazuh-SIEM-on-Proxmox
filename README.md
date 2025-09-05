@@ -17,7 +17,7 @@ It is a Proxmox Worstation which has Ubuntu as the base VM for Wazzuh. Wazzuh se
 6. [Alerts](#alerts)  
 7. [Screenshots](#screenshots)  
 8. [Conclusion](#conclusion)  
-9. [References](#references)
+
 
 ---
 
