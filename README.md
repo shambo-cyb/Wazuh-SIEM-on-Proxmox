@@ -180,6 +180,7 @@ Top 5 Agents: The top graph shows that the sbmonitor-PC agent (green) generated 
 
 Alert Level Evolution: The bottom graph shows a significant spike in alert counts, primarily for Level 8 alerts (green/purple) and Level 7 alerts (light green), correlating with the activity seen in the top graph. This indicates a period of high-severity security events.
 
+---
 
 ## Setting up the Environment 
 Proxmox is installed on my workstation in the same home network subnet of 10.0.0.0 /24. I have used Ubuntu for the base virtual machine for Wazuh. Wazuh is downloaded using Curl. 
