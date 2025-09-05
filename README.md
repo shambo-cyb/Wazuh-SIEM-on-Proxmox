@@ -111,7 +111,7 @@ Remote Desktop access being established on the victim’s computer
 * **Helps detect exploits and misconfigurations to enhance system hardening**
 
 ## Attacks Types and Definitions of some common attack groups by Wazuh
-### The Attacker's Toolbelt: A Look at Malicious Software and MITRE Att&cks by famous Hacking Groups
+### The Attacker's Toolbelt: A Look at Malicious Software and MITRE Att&cks Frameworks
 
 <img width="600" height="727" alt="Picture2" src="https://github.com/user-attachments/assets/98412834-ceb0-4b6a-9a05-2263f8a55afa" />
 
