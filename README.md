@@ -237,8 +237,8 @@ If successful, the Windows 10 agent will appear in the list with its ID, name, a
   sudo systemctl start wazuh-manager
 
 If this is successful then open the Web browser and login to 
-```bash
-https://<wazuh server's ip>:5601
-```
-and the dashboard is visible stating the number of agents which are connected and active. 
+- ```bash
+  https://<wazuh server's ip>:5601
+  ```
+  and the dashboard is visible stating the number of agents which are connected and active. 
 
