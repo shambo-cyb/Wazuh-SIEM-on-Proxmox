@@ -101,14 +101,15 @@ Remote Desktop access being established on the victim’s computer
 
 🛡️ **Wazuh Security Configuration Assessment Summary**
 
-* **Uses CIS Benchmarks for Windows 10 Enterprise**
-* **Dashboard visualizes system compliance**
-* **Donut chart shows:**
-    * ✅ **Passed:** 123
-    * ❌ **Failed:** 265
-    * 🚫 **Not applicable:** 6
-* **The overall score is 31%**
-* **Helps detect exploits and misconfigurations to enhance system hardening**
+Uses CIS Benchmarks for Windows 10 Enterprise
+
+Dashboard visualizes system compliance
+  Donut chart shows:
+  - ✅ **Passed:** 123
+  - ❌ **Failed:** 265
+  - 🚫 **Not applicable:** 6
+  - The overall score is 31%
+  Helps detect exploits and misconfigurations to enhance system hardening
 
 ## Attacks Types and Definitions of some common attack groups by Wazuh
 ### The Attacker's Toolbelt: A Look at Malicious Software and MITRE Att&cks Frameworks
