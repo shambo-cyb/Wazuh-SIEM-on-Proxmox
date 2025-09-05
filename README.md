@@ -176,9 +176,9 @@ This table acts as a security event log, detailing every activity and potential 
 
 
 
-Top 5 Agents: The top graph shows that the sbmonitor-PC agent (green) generated a large number of alerts around 18:00, with another spike around 20:00. The Win10agent (blue) also had a small spike at the same time.
+- Top 5 Agents: The top graph shows that the sbmonitor-PC agent (green) generated a large number of alerts around 18:00, with another spike around 20:00. The Win10agent (blue) also had a small spike at the same time.
 
-Alert Level Evolution: The bottom graph shows a significant spike in alert counts, primarily for Level 8 alerts (green/purple) and Level 7 alerts (light green), correlating with the activity seen in the top graph. This indicates a period of high-severity security events.
+- Alert Level Evolution: The bottom graph shows a significant spike in alert counts, primarily for Level 8 alerts (green/purple) and Level 7 alerts (light green), correlating with the activity seen in the top graph. This indicates a period of high-severity security events.
 
 ---
 
