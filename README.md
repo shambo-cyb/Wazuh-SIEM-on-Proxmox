@@ -122,7 +122,7 @@ Remote Desktop access being established on the victim’s computer
 - HOPLIGHT: A specific backdoor Trojan reportedly used by a North Korean group.
 This page helps security teams understand the technical side of attacks, which is essential for building effective defenses.
 
-### Understanding Cybersecurity Threats Through Wazuh
+### More Attacks by Groups
 <img width="600" height="681" alt="Picture1" src="https://github.com/user-attachments/assets/57030362-ec81-4b81-9999-f7e5b88c15cf" />
 
 
