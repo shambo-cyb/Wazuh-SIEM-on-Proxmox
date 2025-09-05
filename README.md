@@ -99,9 +99,23 @@ Remote Desktop access being established on the victim’s computer
 <img width="600" height="851" alt="Picture78778778787" src="https://github.com/user-attachments/assets/53f0eec3-5842-447f-988d-6c74e4c613af" />
 
 ## Attacks Types and Definitions of some common attack groups by Wazuh
+### The Attacker's Toolbelt: A Look at Malicious Software and MITRE Att&cks by famous Hacking Groups
+
+<img width="600" height="727" alt="Picture2" src="https://github.com/user-attachments/assets/98412834-ceb0-4b6a-9a05-2263f8a55afa" />
+
+#### This screenshot showcases some of the specific tools and software that cyber attackers use in their operations. It’s a valuable part of any threat intelligence platform because it moves beyond just talking about groups and tactics and gets into the nitty-gritty of the actual code and programs used. Some of the tools listed are:
+- PoshC2: An open-source framework used for remote administration and post-exploitation.
+- Pass-The-Hash Toolkit: A tool for using stolen password hashes to log into systems without knowing the actual password.
+- Mimikatz: A very famous credential dumper for Windows systems that can reveal plaintext passwords from memory.
+- HOPLIGHT: A specific backdoor Trojan reportedly used by a North Korean group.
+This page helps security teams understand the technical side of attacks, which is essential for building effective defenses.
 
 ### Understanding Cybersecurity Threats Through Wazuh
 <img width="600" height="681" alt="Picture1" src="https://github.com/user-attachments/assets/57030362-ec81-4b81-9999-f7e5b88c15cf" />
+
+
+
+
 
 #### Wazuh offers a powerful look into the world of cyber threats, combining technical details with intelligence on the groups behind the attacks.
 
@@ -119,16 +133,7 @@ Remote Desktop access being established on the victim’s computer
 - It details the "OS Credential Dumping" technique, which involves attackers targeting Linux's /etc/passwd and /etc/shadow files to steal password hashes.
 - The platform provides actionable intelligence, explaining how these hashes can be used with tools like John the Ripper to crack passwords.
 
-### The Attacker's Toolbelt: A Look at Malicious Software and MITRE Att&cks
 
-<img width="600" height="727" alt="Picture2" src="https://github.com/user-attachments/assets/98412834-ceb0-4b6a-9a05-2263f8a55afa" />
-
-#### This screenshot showcases some of the specific tools and software that cyber attackers use in their operations. It’s a valuable part of any threat intelligence platform because it moves beyond just talking about groups and tactics and gets into the nitty-gritty of the actual code and programs used. Some of the tools listed are:
-- PoshC2: An open-source framework used for remote administration and post-exploitation.
-- Pass-The-Hash Toolkit: A tool for using stolen password hashes to log into systems without knowing the actual password.
-- Mimikatz: A very famous credential dumper for Windows systems that can reveal plaintext passwords from memory.
-- HOPLIGHT: A specific backdoor Trojan reportedly used by a North Korean group.
-This page helps security teams understand the technical side of attacks, which is essential for building effective defenses.
 
 ### Understanding the Dashboard 
 <img width="600" height="814" alt="Picture4" src="https://github.com/user-attachments/assets/5605b86a-f257-4b8c-bad4-761d2547fe83" />
